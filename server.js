@@ -3,6 +3,11 @@ var bodyParser = require('body-parser')
 var app = express()
 var http = require('http').Server(app)
 var io = require('socket.io')(http)
+require('dotenv').config()
+console.log(process.env.DB_USER)
+var str = "mongodb://<dbuser>:<dbpassword>@ds125263.mlab.com:25263/nodejs-db"
+// var mongoose = require('mongoose')
+
 
 app.use(express.static(__dirname))
 app.use(bodyParser.urlencoded({
