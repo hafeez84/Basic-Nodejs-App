@@ -1,22 +1,27 @@
 {
   "name": "project",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafeez84/Basic-Nodejs-App.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@types/body-parser": "^1.17.0",
-    "@types/express": "^4.16.0",
-    "@types/socket.io": "^1.4.38",
-    "body-parser": "1.18.3",
-    "express": "4.16.0",
-    "socket.io": "2.1.1"
+  "bugs": {
+    "url": "https://github.com/hafeez84/Basic-Nodejs-App/issues"
   },
-  "devDependencies": {},
-  "description": ""
+  "homepage": "https://github.com/hafeez84/Basic-Nodejs-App#readme"
 }
